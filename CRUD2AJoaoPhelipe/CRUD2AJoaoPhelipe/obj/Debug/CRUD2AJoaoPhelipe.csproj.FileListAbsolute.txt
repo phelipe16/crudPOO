@@ -1,0 +1,11 @@
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\CRUD2AJoaoPhelipe.exe.config
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\CRUD2AJoaoPhelipe.exe
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\CRUD2AJoaoPhelipe.pdb
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.csproj.AssemblyReference.cache
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.csproj.SuggestedBindingRedirects.cache
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.Form1.resources
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.Properties.Resources.resources
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.csproj.GenerateResource.cache
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.csproj.CoreCompileInputs.cache
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.exe
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.pdb
