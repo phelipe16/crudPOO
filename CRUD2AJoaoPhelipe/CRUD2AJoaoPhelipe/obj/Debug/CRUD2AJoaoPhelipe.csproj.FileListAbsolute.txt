@@ -9,3 +9,16 @@ D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debu
 D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.csproj.CoreCompileInputs.cache
 D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.exe
 D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.pdb
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\MySql.Data.dll
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\Google.Protobuf.dll
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\ZstdNet.dll
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\BouncyCastle.Crypto.dll
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\System.Memory.dll
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\System.Buffers.dll
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\K4os.Compression.LZ4.dll
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\K4os.Hash.xxHash.dll
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\System.Numerics.Vectors.dll
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\bin\Debug\MySql.Data.xml
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.exe.config
+D:\Users\2022103030022\source\repos\CRUD2AJoaoPhelipe\CRUD2AJoaoPhelipe\obj\Debug\CRUD2AJoaoPhelipe.csproj.CopyComplete
