@@ -40,15 +40,15 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.TextCódigo = new System.Windows.Forms.TextBox();
-            this.TextNome = new System.Windows.Forms.TextBox();
-            this.TextEndereço = new System.Windows.Forms.TextBox();
-            this.TextBairro = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtEndereco = new System.Windows.Forms.TextBox();
+            this.txtBairro = new System.Windows.Forms.TextBox();
             this.cbSexo = new System.Windows.Forms.ComboBox();
             this.cbEstado = new System.Windows.Forms.ComboBox();
             this.mtbCPF = new System.Windows.Forms.MaskedTextBox();
             this.mtbCEP = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.mtbCelular = new System.Windows.Forms.MaskedTextBox();
             this.dtNascimento = new System.Windows.Forms.DateTimePicker();
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.btnSalvar = new System.Windows.Forms.Button();
@@ -58,7 +58,7 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCidade = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -175,39 +175,39 @@
             this.label11.TabIndex = 0;
             this.label11.Text = "Celular";
             // 
-            // TextCódigo
+            // txtCodigo
             // 
-            this.TextCódigo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TextCódigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextCódigo.Location = new System.Drawing.Point(16, 118);
-            this.TextCódigo.Name = "TextCódigo";
-            this.TextCódigo.ReadOnly = true;
-            this.TextCódigo.Size = new System.Drawing.Size(79, 16);
-            this.TextCódigo.TabIndex = 99;
+            this.txtCodigo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigo.Location = new System.Drawing.Point(16, 118);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.ReadOnly = true;
+            this.txtCodigo.Size = new System.Drawing.Size(79, 16);
+            this.txtCodigo.TabIndex = 99;
             // 
-            // TextNome
+            // txtNome
             // 
-            this.TextNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextNome.Location = new System.Drawing.Point(16, 170);
-            this.TextNome.Name = "TextNome";
-            this.TextNome.Size = new System.Drawing.Size(475, 23);
-            this.TextNome.TabIndex = 1;
+            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Location = new System.Drawing.Point(16, 170);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(475, 23);
+            this.txtNome.TabIndex = 1;
             // 
-            // TextEndereço
+            // txtEndereco
             // 
-            this.TextEndereço.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextEndereço.Location = new System.Drawing.Point(16, 221);
-            this.TextEndereço.Name = "TextEndereço";
-            this.TextEndereço.Size = new System.Drawing.Size(311, 23);
-            this.TextEndereço.TabIndex = 5;
+            this.txtEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEndereco.Location = new System.Drawing.Point(16, 221);
+            this.txtEndereco.Name = "txtEndereco";
+            this.txtEndereco.Size = new System.Drawing.Size(311, 23);
+            this.txtEndereco.TabIndex = 5;
             // 
-            // TextBairro
+            // txtBairro
             // 
-            this.TextBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBairro.Location = new System.Drawing.Point(353, 221);
-            this.TextBairro.Name = "TextBairro";
-            this.TextBairro.Size = new System.Drawing.Size(138, 23);
-            this.TextBairro.TabIndex = 6;
+            this.txtBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBairro.Location = new System.Drawing.Point(353, 221);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(138, 23);
+            this.txtBairro.TabIndex = 6;
             // 
             // cbSexo
             // 
@@ -276,14 +276,14 @@
             this.mtbCEP.Size = new System.Drawing.Size(112, 23);
             this.mtbCEP.TabIndex = 7;
             // 
-            // maskedTextBox1
+            // mtbCelular
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(353, 277);
-            this.maskedTextBox1.Mask = "(99) 00000-0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(138, 23);
-            this.maskedTextBox1.TabIndex = 10;
+            this.mtbCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtbCelular.Location = new System.Drawing.Point(353, 277);
+            this.mtbCelular.Mask = "(99) 00000-0000";
+            this.mtbCelular.Name = "mtbCelular";
+            this.mtbCelular.Size = new System.Drawing.Size(138, 23);
+            this.mtbCelular.TabIndex = 10;
             // 
             // dtNascimento
             // 
@@ -300,18 +300,21 @@
             this.dataGridView.AllowUserToDeleteRows = false;
             this.dataGridView.AllowUserToResizeColumns = false;
             this.dataGridView.AllowUserToResizeRows = false;
+            this.dataGridView.BackgroundColor = System.Drawing.Color.SteelBlue;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(16, 379);
+            this.dataGridView.GridColor = System.Drawing.SystemColors.ActiveBorder;
+            this.dataGridView.Location = new System.Drawing.Point(16, 323);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.ReadOnly = true;
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView.Size = new System.Drawing.Size(520, 150);
+            this.dataGridView.Size = new System.Drawing.Size(520, 148);
             this.dataGridView.TabIndex = 16;
+            this.dataGridView.DoubleClick += new System.EventHandler(this.dataGridView_DoubleClick);
             // 
             // btnSalvar
             // 
             this.btnSalvar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalvar.BackgroundImage")));
-            this.btnSalvar.Location = new System.Drawing.Point(11, 11);
+            this.btnSalvar.Location = new System.Drawing.Point(11, 8);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(90, 34);
             this.btnSalvar.TabIndex = 11;
@@ -321,16 +324,17 @@
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(11, 131);
+            this.btnAlterar.Location = new System.Drawing.Point(11, 137);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(90, 34);
             this.btnAlterar.TabIndex = 14;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(11, 51);
+            this.btnExcluir.Location = new System.Drawing.Point(11, 52);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(90, 34);
             this.btnExcluir.TabIndex = 12;
@@ -339,7 +343,7 @@
             // 
             // btnExibir
             // 
-            this.btnExibir.Location = new System.Drawing.Point(11, 89);
+            this.btnExibir.Location = new System.Drawing.Point(11, 92);
             this.btnExibir.Name = "btnExibir";
             this.btnExibir.Size = new System.Drawing.Size(90, 34);
             this.btnExibir.TabIndex = 13;
@@ -349,19 +353,20 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(11, 171);
+            this.btnCancelar.Location = new System.Drawing.Point(11, 179);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(90, 34);
             this.btnCancelar.TabIndex = 15;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.SteelBlue;
             this.label12.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(140, 25);
+            this.label12.Location = new System.Drawing.Point(140, 27);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(291, 32);
             this.label12.TabIndex = 11;
@@ -370,23 +375,23 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.SteelBlue;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(-23, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(596, 60);
+            this.pictureBox1.Size = new System.Drawing.Size(666, 60);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // txtCidade
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(146, 277);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 8;
+            this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCidade.Location = new System.Drawing.Point(146, 277);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(100, 23);
+            this.txtCidade.TabIndex = 8;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel1.BackColor = System.Drawing.Color.SteelBlue;
             this.panel1.Controls.Add(this.btnCancelar);
             this.panel1.Controls.Add(this.btnExibir);
             this.panel1.Controls.Add(this.btnExcluir);
@@ -395,7 +400,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Location = new System.Drawing.Point(497, 95);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(111, 213);
+            this.panel1.Size = new System.Drawing.Size(120, 222);
             this.panel1.TabIndex = 11;
             // 
             // Form1
@@ -403,22 +408,22 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(629, 541);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(629, 483);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.dtNascimento);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.mtbCelular);
             this.Controls.Add(this.mtbCEP);
             this.Controls.Add(this.mtbCPF);
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.cbSexo);
-            this.Controls.Add(this.TextBairro);
-            this.Controls.Add(this.TextEndereço);
-            this.Controls.Add(this.TextNome);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.TextCódigo);
+            this.Controls.Add(this.txtBairro);
+            this.Controls.Add(this.txtEndereco);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.txtCidade);
+            this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -435,7 +440,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cadastro de Pessoas";
+            this.Text = " ";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -457,15 +462,15 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox TextCódigo;
-        private System.Windows.Forms.TextBox TextNome;
-        private System.Windows.Forms.TextBox TextEndereço;
-        private System.Windows.Forms.TextBox TextBairro;
+        private System.Windows.Forms.TextBox txtCodigo;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtEndereco;
+        private System.Windows.Forms.TextBox txtBairro;
         private System.Windows.Forms.ComboBox cbSexo;
         private System.Windows.Forms.ComboBox cbEstado;
         private System.Windows.Forms.MaskedTextBox mtbCPF;
         private System.Windows.Forms.MaskedTextBox mtbCEP;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mtbCelular;
         private System.Windows.Forms.DateTimePicker dtNascimento;
         private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.Button btnSalvar;
@@ -475,7 +480,7 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.Panel panel1;
     }
 }

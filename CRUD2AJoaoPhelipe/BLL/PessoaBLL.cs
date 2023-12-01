@@ -13,6 +13,22 @@ namespace CRUD2AJoaoPhelipe.BLL
     {
         PessoaDAL pessoaDAL = new PessoaDAL();
 
+
+        //Metodo para Alterar 
+        public void Alterar(Pessoa pessoa)
+        {
+            try
+            {
+                pessoaDAL.Alterar(pessoa);
+
+            }
+            catch (Exception erro)
+            {
+                throw erro;
+            }
+        }
+
+
         //Metodo para salvar
         public void Salvar(Pessoa pessoa)
         {

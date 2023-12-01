@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
+
+
 namespace CRUD2AJoaoPhelipe.DAL
 {
     public class ConecxãoDAL

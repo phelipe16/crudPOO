@@ -12,6 +12,46 @@ namespace CRUD2AJoaoPhelipe.DAL
     public class PessoaDAL : ConecxãoDAL
     {
 
+
+        //Metodo para Alterar 
+        public void Alterar(Pessoa pessoa)
+        {
+            try
+            {
+                AbrirConexao();
+                comando = new MySqlCommand("UPDATE pessoa SET nome = @nome, nascimento = @nascimento, sexo = @sexo, cpf = @cpf, " +
+                    "celular = @celular, endereco = @endereco, bairro = @bairro, cidade = @cidade, estado = @estado, cep = @cep WHERE id = @id", conexao);
+
+                comando.Parameters.AddWithValue("@id", pessoa.Id);
+                comando.Parameters.AddWithValue("@nome", pessoa.Nome);
+                comando.Parameters.AddWithValue("@nascimento", DateTime.Parse(pessoa.Nascimento).ToString("yyyy-MM-dd"));
+                comando.Parameters.AddWithValue("@sexo", pessoa.Sexo);
+                comando.Parameters.AddWithValue("@cpf", pessoa.Cpf);
+                comando.Parameters.AddWithValue("@celular", pessoa.Celular);
+                comando.Parameters.AddWithValue("@endereco", pessoa.Endereco);
+                comando.Parameters.AddWithValue("@bairro", pessoa.Bairro);
+                comando.Parameters.AddWithValue("@cidade", pessoa.Cidade);
+                comando.Parameters.AddWithValue("@estado", pessoa.Estado);
+                comando.Parameters.AddWithValue("@cep", pessoa.Cep);
+
+                comando.ExecuteNonQuery();
+
+            }
+            catch (Exception erro)
+            {
+
+                throw erro ;
+            }
+            finally
+            {
+                FecharConexao(); 
+            }
+
+
+        }
+
+
+
         //Metodo para Salvar 
         public void Salvar(Pessoa pessoa)
         {
@@ -27,7 +67,7 @@ namespace CRUD2AJoaoPhelipe.DAL
                 comando.Parameters.AddWithValue("@cpf", pessoa.Cpf);
                 comando.Parameters.AddWithValue("@celular", pessoa.Celular);
                 comando.Parameters.AddWithValue("@endereco", pessoa.Endereco);
-                comando.Parameters.AddWithValue("@beirro", pessoa.Bairro);
+                comando.Parameters.AddWithValue("@bairro", pessoa.Bairro);
                 comando.Parameters.AddWithValue("@cidade", pessoa.Cidade);
                 comando.Parameters.AddWithValue("@estado", pessoa.Estado);
                 comando.Parameters.AddWithValue("@cep", pessoa.Cep);
